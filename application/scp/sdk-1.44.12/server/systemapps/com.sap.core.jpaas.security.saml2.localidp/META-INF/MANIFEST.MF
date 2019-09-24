@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: WEB-INF/classes/
+Built-By: ppurple
+Bundle-Name: Com.sap.core.jpaas.security.saml2.localidp
+Created-By: Apache Maven
+Web-ContextPath: /saml2/localidp
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Build-Jdk: 1.7.0_25
+Bundle-Version: 1.1.139.rt2
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sap.core.jpaas.security.saml2.localidp
+Import-Package: com.google.gson,com.sap.core.jpaas.security.auth.servi
+ ce,com.sap.core.jpaas.security.saml2.service,com.sap.core.jpaas.secur
+ ity.saml2.service.cfg,com.sap.core.jpaas.security.saml2.service.cfg.j
+ son,com.sap.core.tenant.api,com.sap.security.auth.login,com.sap.secur
+ ity.core.server.csi,com.sap.security.core.server.destinations.api,com
+ .sap.security.saml2.cfg,com.sap.security.saml2.cfg.custom,com.sap.sec
+ urity.saml2.cfg.enums,com.sap.security.saml2.cfg.exceptions,com.sap.s
+ ecurity.saml2.cfg.interfaces,com.sap.security.saml2.cfg.interfaces.re
+ ad,com.sap.security.saml2.cfg.metadata,com.sap.security.saml2.commons
+ .slo,com.sap.security.saml2.commons.sso,com.sap.security.saml2.idp.ap
+ i,com.sap.security.saml2.lib.bindings,com.sap.security.saml2.lib.comm
+ on,com.sap.security.saml2.lib.interfaces.assertions,com.sap.security.
+ saml2.lib.interfaces.protocols,com.sap.security.um.service,com.sap.se
+ curity.um.user,com.sap.tc.logging,javax.el,javax.servlet,javax.servle
+ t.http,javax.servlet.jsp,javax.servlet.jsp.el,javax.servlet.jsp.tagex
+ t,org.slf4j
+Archiver-Version: Plexus Archiver
+

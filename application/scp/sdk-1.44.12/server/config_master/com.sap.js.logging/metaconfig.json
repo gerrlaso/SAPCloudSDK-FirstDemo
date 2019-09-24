@@ -1,0 +1,5 @@
+{
+  "Config files" : [{"source":"logging.cfg"}],
+  "Apply strategy" : "config admin",
+  "Affected bundles" : ["com.sap.js.logging"]
+}

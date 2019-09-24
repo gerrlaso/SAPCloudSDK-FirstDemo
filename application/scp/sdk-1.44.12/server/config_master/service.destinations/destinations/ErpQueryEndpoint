@@ -1,0 +1,8 @@
+#Mon Sep 23 22:18:16 CEST 2019
+Type=HTTP
+TrustAll=FALSE
+User=SCP_TEST
+Authentication=BasicAuthentication
+URL=https\://my303074-api.s4hana.ondemand.com
+Name=ErpQueryEndpoint
+Password=Laboraotior

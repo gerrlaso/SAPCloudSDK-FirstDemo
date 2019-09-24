@@ -1,0 +1,5 @@
+sdk.name=Java EE 7 Web Profile TomEE 7
+runtime.id=neo-javaee7-wp
+release.version=1.44.12
+runtime.version=1.44.12
+structure.version=8.0.0

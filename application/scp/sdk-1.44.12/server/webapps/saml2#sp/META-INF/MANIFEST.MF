@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: WEB-INF/classes/
+Built-By: ppurple
+Bundle-Name: com.sap.core.jpaas.security.saml2.sp
+Created-By: Apache Maven
+Web-ContextPath: /saml2/sp
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: SAP AG
+Build-Jdk: 1.7.0_25
+Bundle-Version: 1.1.139.rt2
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sap.core.jpaas.security.saml2.sp
+Import-Package: com.google.gson;version="1.6.0",com.google.gson.annota
+ tions;version="1.6.0",com.sap.core.jpaas.security.auth.service,com.sa
+ p.core.jpaas.security.saml2.service,com.sap.core.jpaas.security.saml2
+ .service.cfg.accessor,com.sap.core.jpaas.security.saml2.service.cfg,c
+ om.sap.core.jpaas.security.saml2.service.cfg.json,com.sap.core.jpaas.
+ security.saml2.service.cfg.provider,com.sap.core.jpaas.security.saml2
+ .sp,com.sap.core.jpaas.security.saml2.sp.exception,com.sap.core.jpaas
+ .security.saml2.sp.util,com.sap.core.jpaas.security.utils,com.sap.cor
+ e.tenant.api,com.sap.core.tenant.common,com.sap.engine.lib.security,c
+ om.sap.engine.lib.security.http,com.sap.engine.lib.security.login,com
+ .sap.engine.lib.xml.signature.crypto,com.sap.security.auth.callback,c
+ om.sap.security.auth.login,com.sap.security.auth.service,com.sap.secu
+ rity.core.server.destinations.api,com.sap.security.saml2.cfg,com.sap.
+ security.saml2.cfg.custom,com.sap.security.saml2.cfg.enums,com.sap.se
+ curity.saml2.cfg.exceptions,com.sap.security.saml2.cfg.interfaces,com
+ .sap.security.saml2.cfg.interfaces.read,com.sap.security.saml2.cfg.in
+ terfaces.read.nameidformat,com.sap.security.saml2.cfg.util,com.sap.se
+ curity.saml2.commons,com.sap.security.saml2.commons.exceptions,com.sa
+ p.security.saml2.commons.idpaccess,com.sap.security.saml2.commons.int
+ erfaces.services,com.sap.security.saml2.idp.api,com.sap.security.saml
+ 2.lib.attributes,com.sap.security.saml2.lib.bindings,com.sap.security
+ .saml2.lib.callbacks,com.sap.security.saml2.lib.common,com.sap.securi
+ ty.saml2.lib.common.exceptions,com.sap.security.saml2.lib.interfaces,
+ com.sap.security.saml2.lib.interfaces.assertions,com.sap.security.sam
+ l2.lib.interfaces.bindings,com.sap.security.saml2.lib.interfaces.prot
+ ocols,com.sap.security.saml2.lib.interfaces.services,com.sap.security
+ .saml2.lib.resources,com.sap.security.saml2.lib.xmlsecurity,com.sap.s
+ ecurity.saml2.sp,com.sap.security.saml2.sp.sso,com.sap.security.saml2
+ .sp.sso.exception,com.sap.security.um.service,com.sap.security.um.ser
+ vice.api,com.sap.security.um.user,com.sap.security.um.user.modify,com
+ .sap.tc.logging,javax.servlet,javax.servlet.http,org.osgi.framework,o
+ rg.osgi.service.cm,org.slf4j;version="1.6.1"
+Archiver-Version: Plexus Archiver
+

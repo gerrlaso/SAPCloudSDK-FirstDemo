@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.5.4
+Built-By: gerrlaso
+Build-Jdk: 11.0.4
+Import-Package: com.sap.security.auth.service,com.sap.security.um.servic
+ e.api,com.sap.core.service.auditlog.impl,com.sap.cloud.auditlog,com.sap
+ .cloud.auditlog.exception,com.sap.cloud.auditlog.extension
+Version: 1.0-SNAPSHOT
+

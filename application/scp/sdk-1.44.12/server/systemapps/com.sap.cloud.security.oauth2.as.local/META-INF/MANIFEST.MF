@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ClassPath: WEB-INF/classes/
+Built-By: ppurple
+Bundle-Name: com.sap.cloud.security.oauth2.as.local
+Created-By: Apache Maven
+Web-ContextPath: /oauth2.local
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Build-Jdk: 1.7.0_25
+Bundle-Version: 0.0.132.rt2
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sap.cloud.security.oauth2.as.local
+Import-Package: com.google.gson,com.google.gson.reflect,com.sap.cloud.
+ security.oauth2.as.commons,com.sap.cloud.security.oauth2.as.commons.a
+ ccessor,com.sap.cloud.security.oauth2.as.commons.client,com.sap.cloud
+ .security.oauth2.as.commons.code,com.sap.cloud.security.oauth2.as.com
+ mons.code.userinfo,com.sap.cloud.security.oauth2.as.commons.exception
+ ,com.sap.cloud.security.oauth2.as.commons.scopes,com.sap.cloud.securi
+ ty.oauth2.as.commons.token.accesstoken,com.sap.cloud.security.oauth2.
+ as.commons.token.refreshtoken,com.sap.cloud.security.oauth2.as.common
+ s.token.verify,com.sap.cloud.security.oauth2.as.commons.utils,com.sap
+ .cloud.security.oauth2.as.commons.web.rest.resources.data,com.sap.clo
+ ud.security.oauth2.commons.client,com.sap.cloud.security.oauth2.commo
+ ns.code,com.sap.cloud.security.oauth2.commons.exception,com.sap.cloud
+ .security.oauth2.commons.token,com.sap.cloud.security.oauth2.flow,com
+ .sap.cloud.security.oauth2.flow.attributes,com.sap.cloud.security.oau
+ th2.flow.exceptions,com.sap.cloud.security.oauth2.flow.service,com.sa
+ p.core.jpaas.security.utils,com.sap.security.core.server.csi,javax.el
+ ,javax.management,javax.servlet,javax.servlet.http,javax.servlet.jsp,
+ javax.servlet.jsp.el,javax.servlet.jsp.tagext,org.apache.catalina.fil
+ ters,org.osgi.framework,org.slf4j
+Archiver-Version: Plexus Archiver
+

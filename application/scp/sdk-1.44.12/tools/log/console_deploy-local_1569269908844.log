@@ -1,0 +1,6 @@
+2019-09-23 22:18:29,209 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Arguments:   --source /home/gerrlaso/fProfessional/fWorkspaces/fRandom/HelloWorld/application/target/HelloWorld-application.war
+2019-09-23 22:18:30,475 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Starting execution of command [deploy-local]
+2019-09-23 22:18:30,484 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] init() finished for [8] ms
+2019-09-23 22:18:30,625 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] run() finished for [140] ms
+2019-09-23 22:18:30,625 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] cleanup() finished for [0] ms
+2019-09-23 22:18:30,626 INFO  [main] com.sap.jpaas.infrastructure.console.ConsoleLogger: Command [deploy-local] finished successfully for [150] ms

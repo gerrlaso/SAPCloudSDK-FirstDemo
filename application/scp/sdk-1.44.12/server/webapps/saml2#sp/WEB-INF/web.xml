@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+  <display-name>
+     saml2.sp.endpoints
+  </display-name>
+
+  <servlet>
+	  <servlet-name>LogoutServlet</servlet-name> 
+	  <servlet-class>com.sap.core.jpaas.security.saml2.sp.endpoints.JPaaSSingleLogoutService</servlet-class> 
+  </servlet>
+  <servlet-mapping>
+               <servlet-name>LogoutServlet</servlet-name>
+               <url-pattern>/slo/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>AssertionConsumerService</servlet-name> 
+	  <servlet-class>com.sap.core.jpaas.security.saml2.sp.endpoints.JPaaSAssertionConsumerService</servlet-class> 
+  </servlet>
+  <servlet-mapping>
+	    <servlet-name>AssertionConsumerService</servlet-name>
+	    <url-pattern>/acs/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MultiDomainService</servlet-name> 
+    <servlet-class>com.sap.core.jpaas.security.saml2.sp.endpoints.JPaaSMultiDomainService</servlet-class> 
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>MultiDomainService</servlet-name>
+      <url-pattern>/mds/*</url-pattern>
+  </servlet-mapping>  
+
+  <security-role>
+  	<role-name>Administrator</role-name>
+  </security-role>
+
+</web-app>

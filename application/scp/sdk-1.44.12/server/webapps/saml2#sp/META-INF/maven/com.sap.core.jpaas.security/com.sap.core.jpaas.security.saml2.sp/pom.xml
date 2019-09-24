@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <groupId>com.sap.core.jpaas.security</groupId>
+    <artifactId>com.sap.core.jpaas.security.saml2</artifactId>
+    <version>1.1.139.rt2</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>com.sap.core.jpaas.security.saml2.sp</artifactId>
+  <packaging>eclipse-plugin</packaging>
+  <name>JPaaS SAML2 SP</name>
+
+  <build>
+    <outputDirectory>WEB-INF/classes</outputDirectory> 
+
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.sonatype.maven.plugin</groupId>
+				<artifactId>emma-maven-plugin</artifactId>
+				<configuration>
+					<filters>
+						<filter>-com.sap.security.saml2.sp.*</filter>
+						<filter>-com.sap.security.saml2.sp.endpoints.*</filter>
+						<filter>-com.sap.security.saml2.sp.exception.*</filter>
+					</filters>
+				</configuration>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+
+
+  </build>
+
+  <!--properties>
+    <sonar.exclusions>com/sap/security/saml2/sp/**/*.java</sonar.exclusions>
+  </properties-->
+
+
+
+</project>
