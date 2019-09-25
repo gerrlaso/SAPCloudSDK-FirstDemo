@@ -61,7 +61,7 @@ public class SimulateSalesOrders extends HttpServlet {
             e.printStackTrace();
         }
 		
-		String basicAuth = BasicAuth.encode("SCP_TEST", "LaboratorioEchevarne.01");
+		String basicAuth = BasicAuth.encode("USER", "Password");
 		Header auth = new BasicHeader(HttpHeaders.AUTHORIZATION, basicAuth);
 		List<Header> headers = Lists.newArrayList(auth);
 		CloseableHttpClient httpClient = HttpClients.custom()
@@ -70,7 +70,7 @@ public class SimulateSalesOrders extends HttpServlet {
 
 		ODataCreateRequest createRequest =
 		     ODataCreateRequestBuilder
-		    .withEntity("https://my303074-api.s4hana.ondemand.com/sap/opu/odata/sap/API_SALES_ORDER_SIMULATION_SRV", "A_SalesOrderSimulation")
+		    .withEntity("https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_SALES_ORDER_SIMULATION_SRV", "A_SalesOrderSimulation")
 		    .withBodyAsMap(oBody)
 		    .build();
 		
