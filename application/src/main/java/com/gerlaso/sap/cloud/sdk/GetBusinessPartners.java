@@ -34,12 +34,12 @@ public class GetBusinessPartners extends HttpServlet
     	try {
     		
 	    	DefaultHttpDestination oDestination = null;
-			oDestination = DefaultHttpDestination.builder("https://my303074-api.s4hana.ondemand.com")
+			oDestination = DefaultHttpDestination.builder("https://myXXXXXX-api.s4hana.ondemand.com")
 					.authenticationType(AuthenticationType.BASIC_AUTHENTICATION)
 					.name("ErpQueryEndpoint")
 					.network(ProxyType.INTERNET)
-					.user("SCP_TEST")
-					.password("LaboratorioEchevarne.01")
+					.user("USER")
+					.password("PASSWORD")
 					.build();
 			
 	    	BusinessPartnerFluentHelper oService = new DefaultBusinessPartnerService()
